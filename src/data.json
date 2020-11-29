@@ -1,12 +1,52 @@
 {
   "links": [
-    { "id": 1, "text": "Eat breakfast", "complete": false },
-    { "id": 2, "text": "do laundry", "complete": false },
-    { "id": 3, "text": "Finish project'", "complete": true }
+    { "text": "resume", "url": "resume address goes here" },
+    { "text": "github", "url": "https://github.com/nelsW70" },
+    { "text": "email", "url": "mailto:nelsfoltz@gmail.com" },
+    { "text": "linkedin", "url": "mailto:nelsfoltz@gmail.com" }
   ],
   "cards": [
-    { "id": 1, "title": "Eat breakfast", "done": false },
-    { "id": 2, "title": "do laundry", "done": false },
-    { "id": 3, "title": "Finish project'", "done": true }
+    {
+      "image": "insert image here",
+      "title": "Triple Martini Productions",
+      "role": "design | build",
+      "skills": "did stuff",
+      "link": "site link"
+    },
+    {
+      "image": "insert image here",
+      "title": "Triple Martini Productions",
+      "role": "design | build",
+      "skills": "did stuff",
+      "link": "site link"
+    },
+    {
+      "image": "insert image here",
+      "title": "Triple Martini Productions",
+      "role": "design | build",
+      "skills": "did more stuff",
+      "link": "site link"
+    },
+    {
+      "image": "insert image here",
+      "title": "Triple Martini Productions",
+      "role": "design | build",
+      "skills": "did shit",
+      "link": "site link"
+    },
+    {
+      "image": "insert image here",
+      "title": "Triple Martini Productions",
+      "role": "design | build",
+      "skills": "did stuff",
+      "link": "site link"
+    },
+    {
+      "image": "insert image here",
+      "title": "Triple Martini Productions",
+      "role": "design | build",
+      "skills": "did stuff",
+      "link": "site link"
+    }
   ]
 }
