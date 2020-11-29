@@ -1,10 +1,17 @@
 import React from 'react';
-import { useGlobalContext } from '../context';
+
+import PortfolioHeader from '../components/PortfolioHeader';
+import PortfolioLinks from '../components/PortfolioLinks';
+import PortfolioCards from '../components/PortfolioCards';
 
 const Portfolio = () => {
-  const { links } = useGlobalContext();
-  console.log('links', links);
-  return <div>portfolio page</div>;
+  return (
+    <main>
+      <PortfolioHeader />
+      <PortfolioLinks />
+      <PortfolioCards />
+    </main>
+  );
 };
 
 export default Portfolio;
