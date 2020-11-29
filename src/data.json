@@ -56,5 +56,89 @@
       "link": "https://s3.us-east-2.amazonaws.com/aa-sdlc-demo/index.html",
       "additionalNotes": "client-side form validaton disabled for demo"
     }
+  ],
+  "keySkills": [
+    "React",
+    "Angular",
+    "HTML|CSS|SASS",
+    "JavaScript",
+    "GIT",
+    "Accessibility",
+    "Responsive Web Development"
+  ],
+  "education": [
+    {
+      "institution": "Academy PGH (February 2017 - May 2017)",
+      "description": "12 week/full-time full stack bootcamp with work in Ruby, C#, JavaScript, HTML, CSS, MVC, RoR, React, TDD, Agile Development, SQL database design and OOP"
+    },
+    {
+      "institution": "New York University (1992 - 1993)",
+      "description": "Graduate Studies : Centennial Scholar"
+    },
+    {
+      "institution": "Duquesne University (1988 - 1992)",
+      "description": "BA Music Performance"
+    }
+  ],
+  "projects": [
+    {
+      "project": "Shadow DOM | ",
+      "company": "SDLC Partners",
+      "info": [
+        "Highmark Member Portal migration from AngularJS to AEM",
+        "lead member of SDLC team in front-end developer role",
+        "refactored existing AngularJS code for AEM implementation",
+        "HTML, LESS, JavaScript, AngularJS, AEM"
+      ]
+    },
+    {
+      "project": "Shadow DOM | ",
+      "company": "SDLC Partners",
+      "info": [
+        "Highmark Member Portal migration from AngularJS to AEM",
+        "lead member of SDLC team in front-end developer role",
+        "refactored existing AngularJS code for AEM implementation",
+        "HTML, LESS, JavaScript, AngularJS, AEM"
+      ]
+    },
+    {
+      "project": "Shadow DOM | ",
+      "company": "SDLC Partners",
+      "info": [
+        "Highmark Member Portal migration from AngularJS to AEM",
+        "lead member of SDLC team in front-end developer role",
+        "refactored existing AngularJS code for AEM implementation",
+        "HTML, LESS, JavaScript, AngularJS, AEM"
+      ]
+    },
+    {
+      "project": "Shadow DOM | ",
+      "company": "SDLC Partners",
+      "info": [
+        "Highmark Member Portal migration from AngularJS to AEM",
+        "lead member of SDLC team in front-end developer role",
+        "refactored existing AngularJS code for AEM implementation",
+        "HTML, LESS, JavaScript, AngularJS, AEM"
+      ]
+    },
+    {
+      "project": "Shadow DOM | ",
+      "company": "SDLC Partners",
+      "info": [
+        "Highmark Member Portal migration from AngularJS to AEM",
+        "lead member of SDLC team in front-end developer role",
+        "refactored existing AngularJS code for AEM implementation",
+        "HTML, LESS, JavaScript, AngularJS, AEM"
+      ]
+    }
+  ],
+  "experience": [
+    "Front-End Developer | PPG Industries | March 2019 - Present",
+    "UX Designer – Front-End Developer | SDLC Partners | October 2017 – February 2019",
+    "Front-End Developer | Work Hard Pittsburgh | May 2017 – May 2019",
+    "Freelance Front-End Developer | April 2015 - present",
+    "Buyer | Dillon Music – Woodbridge, NJ | September 1998 – February 2017",
+    "Assistant to Lou Reed | Sister Ray Enterprises - NYC | 2005-2008",
+    "Jazz Department Instructor | SUNY Purchase College - Westchester, NY | 2000-2004"
   ]
 }
