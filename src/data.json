@@ -9,44 +9,52 @@
     {
       "image": "insert image here",
       "title": "Triple Martini Productions",
+      "description": "custom site for Triple Martini Productions",
       "role": "design | build",
-      "skills": "did stuff",
-      "link": "site link"
+      "skills": "HTML, CSS, JavaScript, PHP",
+      "link": "http://www.triplemartiniproductions.com"
     },
     {
       "image": "insert image here",
-      "title": "Triple Martini Productions",
-      "role": "design | build",
-      "skills": "did stuff",
-      "link": "site link"
+      "title": "PPG Industrial Coatings",
+      "description": "site for PPG Industrial Coatings",
+      "role": "lead front-end developer",
+      "skills": "Razor Pages, HTML, SASS, BEM, C#, JavaScript",
+      "link": "https://www.ppgindustrialcoatings.com/"
     },
     {
       "image": "insert image here",
-      "title": "Triple Martini Productions",
+      "title": "Joe Fiedler",
+      "description": "custom site for musician|composer Joe Fiedler",
       "role": "design | build",
-      "skills": "did more stuff",
-      "link": "site link"
+      "skills": "HTML, CSS, JavaScript, PHP",
+      "link": "https://joefiedler.com/"
     },
     {
       "image": "insert image here",
-      "title": "Triple Martini Productions",
-      "role": "design | build",
-      "skills": "did shit",
-      "link": "site link"
+      "title": "ClientLink - Reportal",
+      "description": "CRM tool for PPG customers | Angular portal nested in existing SAP site",
+      "role": "lead front-end developer",
+      "skills": "Angular7, Angular Material, SAP Fiori Fundamentals, HTML, SASS",
+      "link": "http://reportal-demo.s3-website.us-east-2.amazonaws.com/pricing-lookup",
+      "additionalNotes": "demo UI layer only"
     },
     {
       "image": "insert image here",
-      "title": "Triple Martini Productions",
+      "title": "Bernhard Edmaier",
+      "description": "mock sites for photographer Bernhard Edmaier",
       "role": "design | build",
-      "skills": "did stuff",
-      "link": "site link"
+      "skills": "React, Angular, AngularJS, HTML, CSS, JavaScript",
+      "link": "https://nelsw70.github.io/bernhardsite/html"
     },
     {
       "image": "insert image here",
-      "title": "Triple Martini Productions",
-      "role": "design | build",
-      "skills": "did stuff",
-      "link": "site link"
+      "title": "Automation Assessment",
+      "description": "",
+      "role": "front-end developer",
+      "skills": "HTMl, CSS, JavaScript",
+      "link": "https://s3.us-east-2.amazonaws.com/aa-sdlc-demo/index.html",
+      "additionalNotes": "client-side form validaton disabled for demo"
     }
   ]
 }

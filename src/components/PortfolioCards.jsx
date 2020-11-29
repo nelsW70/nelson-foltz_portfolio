@@ -7,14 +7,25 @@ const PortfolioCards = () => {
   return (
     <section>
       {cards.map((card, index) => {
-        const { image, title, role, skills, link } = card;
+        const {
+          image,
+          title,
+          description,
+          role,
+          skills,
+          additionalNotes,
+          link
+        } = card;
         return (
           <div key={index}>
             <p>{image}</p>
             <p>{title}</p>
+            <p>{description}</p>
             <p>{role}</p>
             <p>{skills}</p>
+            <p>{additionalNotes}</p>
             <p>{link}</p>
+            <hr />
           </div>
         );
       })}
@@ -23,3 +34,12 @@ const PortfolioCards = () => {
 };
 
 export default PortfolioCards;
+
+// projects
+
+// Martini
+// PPG Industrial Coatings
+// Automation Assessment
+// Bernhard
+// Reportal
+// Fiedler
