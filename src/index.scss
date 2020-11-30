@@ -13,9 +13,13 @@ Variables
 */
 
 $primary-black: rgba(0, 0, 0, 1);
-$secondary-black: rgba(92, 92, 92, 1);
+$secondary-black: rgba(0, 0, 0, 0.75);
 $primary-red: rgba(171, 68, 68, 1);
 $primary-white: rgba(250, 253, 255, 1);
+
+$small-width: 768px;
+$medium-width: 1024px;
+$large-width: 1440px;
 
 /* 
 ====== 
@@ -63,17 +67,29 @@ Portfolio
 ======
 */
 
-// Header
+// HEADER
 .portfolio-header {
+  max-width: 600px;
+  h1 {
+    line-height: 2rem;
+  }
   & span {
     color: $primary-red;
   }
   & .portfolio-links {
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 250px;
+    margin: 5% 0;
+    @media screen and (min-width: $small-width) {
+      margin: 2.5% 0;
+    }
+    ul {
+      font-size: 0.75rem;
+      list-style: none;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      max-width: 250px;
+      text-transform: uppercase;
+    }
   }
   & a {
     position: relative;

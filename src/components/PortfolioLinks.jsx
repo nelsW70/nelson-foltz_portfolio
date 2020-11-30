@@ -6,8 +6,8 @@ const PortfolioLinks = () => {
   const { links } = useGlobalContext();
   console.log('links', links);
   return (
-    <section>
-      <ul className="portfolio-links">
+    <section className="portfolio-links">
+      <ul>
         <Link to="/resume">
           <li className="portfolio-link">resume</li>
         </Link>
