@@ -5,7 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Error from './pages/Error';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

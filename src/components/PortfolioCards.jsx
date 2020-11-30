@@ -25,7 +25,6 @@ const PortfolioCards = () => {
             <p>{skills}</p>
             <p>{additionalNotes}</p>
             <p>{link}</p>
-            <hr />
           </div>
         );
       })}
@@ -34,12 +33,3 @@ const PortfolioCards = () => {
 };
 
 export default PortfolioCards;
-
-// projects
-
-// Martini
-// PPG Industrial Coatings
-// Automation Assessment
-// Bernhard
-// Reportal
-// Fiedler
