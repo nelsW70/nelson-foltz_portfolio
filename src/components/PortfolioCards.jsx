@@ -17,7 +17,7 @@ const PortfolioCards = () => {
           link
         } = card;
         return (
-          <div key={index}>
+          <article key={index}>
             <p>{image}</p>
             <p>{title}</p>
             <p>{description}</p>
@@ -25,7 +25,7 @@ const PortfolioCards = () => {
             <p>{skills}</p>
             <p>{additionalNotes}</p>
             <p>{link}</p>
-          </div>
+          </article>
         );
       })}
     </section>
