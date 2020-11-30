@@ -6,18 +6,23 @@ import ResumeAbout from '../components/ResumeAbout';
 import ResumeEducation from '../components/ResumeEducation';
 import ResumeProjects from '../components/ResumeProjects';
 import ResumeExperience from '../components/ResumeExperience';
+import ResumeReferences from '../components/ResumeReferences';
+import Footer from '../components/Footer';
 
 const Resume = () => {
   return (
-    <main>
+    <>
       <ResumeHeader />
-      <ResumeAbout />
-      <ResumeKeySkills />
-      <ResumeEducation />
-      <ResumeProjects />
-      <ResumeExperience />
-      <h2>references available upon request</h2>
-    </main>
+      <main>
+        <ResumeAbout />
+        <ResumeKeySkills />
+        <ResumeEducation />
+        <ResumeProjects />
+        <ResumeExperience />
+        <ResumeReferences />
+      </main>
+      <Footer />
+    </>
   );
 };
 

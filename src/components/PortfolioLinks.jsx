@@ -5,11 +5,11 @@ const PortfolioLinks = () => {
   const { links } = useGlobalContext();
   console.log('links', links);
   return (
-    <nav>
+    <div>
       {links.map((item, index) => {
         return <div key={index}>{item.text}</div>;
       })}
-    </nav>
+    </div>
   );
 };
 
