@@ -60,7 +60,7 @@
   "keySkills": [
     "React",
     "Angular",
-    "HTML|CSS|SASS",
+    "HTML/CSS/SASS",
     "JavaScript",
     "GIT",
     "Accessibility",
@@ -72,8 +72,12 @@
       "description": "12 week/full-time full stack bootcamp with work in Ruby, C#, JavaScript, HTML, CSS, MVC, RoR, React, TDD, Agile Development, SQL database design and OOP"
     },
     {
+      "institution": "Udacity (January 2016 – March 2016)",
+      "description": "Nanodegree | Intro to Programming - 200 hour online program in HTML, CSS, and Python"
+    },
+    {
       "institution": "New York University (1992 - 1993)",
-      "description": "Graduate Studies : Centennial Scholar"
+      "description": "Graduate Studies | Centennial Scholar"
     },
     {
       "institution": "Duquesne University (1988 - 1992)",
@@ -83,7 +87,7 @@
   "projects": [
     {
       "project": "Shadow DOM | ",
-      "company": "SDLC Partners",
+      "company": "SDLC Partners - Highmark",
       "info": [
         "Highmark Member Portal migration from AngularJS to AEM",
         "lead member of SDLC team in front-end developer role",
@@ -92,43 +96,104 @@
       ]
     },
     {
-      "project": "Shadow DOM | ",
+      "project": "Health eTools | ",
       "company": "SDLC Partners",
       "info": [
-        "Highmark Member Portal migration from AngularJS to AEM",
-        "lead member of SDLC team in front-end developer role",
-        "refactored existing AngularJS code for AEM implementation",
-        "HTML, LESS, JavaScript, AngularJS, AEM"
+        "EHR (electronic health record) application for healthcare professionals",
+        "assisted with UX and UI design",
+        "lead front-end developer",
+        "built hi-fidelity UI prototype using HTML, CSS, JavaScript, jQuery, Bootstrap, CSS/jQuery animation",
+        "built hi-fidelity style-guide with components in modular form",
+        "built custom site for marketing purposes"
       ]
     },
     {
-      "project": "Shadow DOM | ",
-      "company": "SDLC Partners",
+      "project": "HM Health Solutions - Accessibility Initiative | ",
+      "company": "SDLC Partners - Highmark",
       "info": [
-        "Highmark Member Portal migration from AngularJS to AEM",
-        "lead member of SDLC team in front-end developer role",
+        "refactored existing site to be compliant with WAI-ARIA/WCAG web accessibility standards",
+        "lead front-end developer",
         "refactored existing AngularJS code for AEM implementation",
-        "HTML, LESS, JavaScript, AngularJS, AEM"
+        "HTML, CSS, JavaScript, Salesforce"
       ]
     },
     {
-      "project": "Shadow DOM | ",
-      "company": "SDLC Partners",
+      "project": "PPG Industrial Coatings | ",
+      "company": "PPG Industries",
       "info": [
-        "Highmark Member Portal migration from AngularJS to AEM",
-        "lead member of SDLC team in front-end developer role",
-        "refactored existing AngularJS code for AEM implementation",
-        "HTML, LESS, JavaScript, AngularJS, AEM"
+        "site for PPG Industrial Coatings",
+        "front-end developer",
+        "built custom elements from designs provided by design team",
+        "assisted with design",
+        "Razor Pages, HTML, SASS, BEM, C#, JavaScript"
       ]
     },
     {
-      "project": "Shadow DOM | ",
-      "company": "SDLC Partners",
+      "project": "ClientLink - Reportal | ",
+      "company": "PPG Industries",
       "info": [
-        "Highmark Member Portal migration from AngularJS to AEM",
-        "lead member of SDLC team in front-end developer role",
-        "refactored existing AngularJS code for AEM implementation",
-        "HTML, LESS, JavaScript, AngularJS, AEM"
+        "CRM tool for PPG customers - Angular portal nested in SAP site",
+        "lead front-end developer",
+        "built modular/reusable custom elements from Sketch designs provided by design team",
+        "Angular7, Angular Material, SAP Fiori Fundamentals, HTML, SASS"
+      ]
+    },
+    {
+      "project": "HMM | ",
+      "company": "PPG Industries",
+      "info": [
+        "hazardous material inventory management web application for Boeing Aerospace",
+        "front-end developer",
+        "built modular/reusable components from Sketch and Figma designs provided by design team",
+        "Angular8, Typescript, RxJs, ES6, Angular Services, Angular HTTP Client, Reactive forms, Template-driven forms, HTML, SASS, Kendo UI"
+      ]
+    },
+    {
+      "project": "Triple Martini Productions | ",
+      "company": "Freelance",
+      "info": [
+        "custom site for Triple Martini Productions - NYC based film production company",
+        "designer | developer",
+        "HTML, CSS, JavaScript, PHP"
+      ]
+    },
+    {
+      "project": "GS National | ",
+      "company": "Freelance",
+      "info": [
+        "web-app for GS National Insurance – tool compares list of agents nationally against internal agents and filters based on license status",
+        "front-end developer",
+        "assisted with design",
+        "React, CSS"
+      ]
+    },
+    {
+      "project": "Joe Fiedler | ",
+      "company": "Freelance",
+      "info": [
+        "custom site for musician/composer Joe Fiedler",
+        "designer | developer",
+        "HTML, CSS, JavaScript, PHP"
+      ]
+    },
+    {
+      "project": "Beyond Data | ",
+      "company": "Freelance",
+      "info": [
+        "fin-tech data visualization dashboard",
+        "front-end developer",
+        "assisted with design",
+        "React, CSS"
+      ]
+    },
+    {
+      "project": "Digital Divide | ",
+      "company": "Freelance",
+      "info": [
+        "site for web-series Digital Divide",
+        "project manager | front-end developer",
+        "worked with clients to create interactive site that displays complex character interactions through data visualization",
+        "HTML, CSS, JavaScript, D3"
       ]
     }
   ],
