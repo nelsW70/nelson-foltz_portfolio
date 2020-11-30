@@ -12,9 +12,10 @@ Variables
 ======
 */
 
-$text-primary-red: rgba(171, 68, 68, 1);
-$text-secondary-gray: rgba(92, 92, 92, 1);
-$color-primary-white: rgba(250, 253, 255, 1);
+$primary-black: rgba(0, 0, 0, 1);
+$secondary-black: rgba(92, 92, 92, 1);
+$primary-red: rgba(171, 68, 68, 1);
+$primary-white: rgba(250, 253, 255, 1);
 
 /* 
 ====== 
@@ -35,7 +36,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 5%;
-  background-color: $color-primary-white;
+  background-color: $primary-white;
+  color: $primary-black;
 }
 
 code {
@@ -64,7 +66,7 @@ Portfolio
 // Header
 .portfolio-header {
   & span {
-    color: $text-primary-red;
+    color: $primary-red;
   }
   & .portfolio-links {
     list-style: none;
@@ -76,10 +78,10 @@ Portfolio
   & a {
     position: relative;
     text-decoration: none;
-    color: $text-secondary-gray;
+    color: $secondary-black;
     transition: 1.5s;
     &:hover {
-      color: rgba(0, 0, 0, 1);
+      color: $primary-black;
       &:before {
         visibility: visible;
         transform: scaleX(1);
@@ -92,7 +94,7 @@ Portfolio
       height: 1px;
       bottom: -3px;
       left: 0;
-      background-color: rgba(171, 68, 68, 1);
+      background-color: $primary-red;
       visibility: hidden;
       transform: scaleX(0);
       transform-origin: left;
