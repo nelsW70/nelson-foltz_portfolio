@@ -1,12 +1,15 @@
 import React from 'react';
+import PortfolioLinks from './PortfolioLinks';
 
 const PortfolioHeader = () => {
   return (
-    <header>
+    <header className="portfolio-header">
       <h1>
-        Nelson Foltz is a front-end developer who seeks collaborative
-        environments where thoughtful development and beauty are the goal.
+        <span>Nelson Foltz</span> is a front-end developer who seeks
+        collaborative environments where thoughtful development and beauty are
+        the goal.
       </h1>
+      <PortfolioLinks />
     </header>
   );
 };

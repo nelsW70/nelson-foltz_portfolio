@@ -1,9 +1,11 @@
 {
   "links": [
-    { "text": "resume", "url": "resume address goes here" },
     { "text": "github", "url": "https://github.com/nelsW70" },
     { "text": "email", "url": "mailto:nelsfoltz@gmail.com" },
-    { "text": "linkedin", "url": "mailto:nelsfoltz@gmail.com" }
+    {
+      "text": "linkedin",
+      "url": "https://www.linkedin.com/in/nelson-foltz-92b1b653/"
+    }
   ],
   "cards": [
     {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 
 const PortfolioLinks = () => {
@@ -6,9 +7,18 @@ const PortfolioLinks = () => {
   console.log('links', links);
   return (
     <section>
-      {links.map((item, index) => {
-        return <div key={index}>{item.text}</div>;
-      })}
+      <ul className="portfolio-links">
+        <Link to="/resume">
+          <li className="portfolio-link">resume</li>
+        </Link>
+        {links.map((item, index) => {
+          return (
+            <a key={index} href={item.url} target="_blank" rel="noreferrer">
+              <li className="portfolio-link">{item.text}</li>
+            </a>
+          );
+        })}
+      </ul>
     </section>
   );
 };
