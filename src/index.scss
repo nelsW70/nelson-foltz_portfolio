@@ -19,8 +19,8 @@ $primary-grey: rgba(204, 204, 204, 1);
 $primary-red: rgba(167, 83, 81, 1);
 $primary-white: rgba(240, 240, 240, 1);
 
-$medium-width: 768px;
-$large-width: 1024px;
+$medium-width: 640px;
+$large-width: 896px;
 $x-large-width: 1440px;
 
 /* 
@@ -129,15 +129,20 @@ Portfolio
     max-width: 100%;
     vertical-align: middle;
   }
-  .btn {
-    background-color: white;
-    border: 1px solid $primary-grey;
-    color: $secondary-black;
-    padding: 0.5rem;
-    text-transform: lowercase;
-    &--block {
-      display: block;
-      width: 100%;
+
+  a {
+    &.btn {
+      background-color: white;
+      border: 1px solid $primary-grey;
+      color: $secondary-black;
+      padding: 0.5rem;
+      text-transform: lowercase;
+      text-align: center;
+      cursor: pointer;
+      &--block {
+        display: block;
+        width: 100%;
+      }
     }
   }
   &__item {
@@ -146,11 +151,11 @@ Portfolio
     flex: 1 1 auto;
     padding: 1rem;
 
-    @media (min-width: 40rem) {
+    @media (min-width: $medium-width) {
       width: 50%;
     }
 
-    @media (min-width: 56rem) {
+    @media (min-width: $large-width) {
       width: 33.3333%;
     }
   }
