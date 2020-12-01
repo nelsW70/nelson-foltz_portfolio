@@ -9,11 +9,11 @@ const ResumeHeader = () => {
       <ResumeLinks />
       <figure>
         <div>
-          <span class="submitstory">
-            <p class="storyone">download</p>
+          <span className="resume-button">
+            <p className="button-face">download</p>
           </span>
-          <span class="submitstory">
-            <p class="storytwo">
+          <span className="resume-button">
+            <p className="button-back">
               <a href="/Nelson_Foltz.pdf" download>
                 pdf
               </a>

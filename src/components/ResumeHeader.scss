@@ -1,5 +1,6 @@
 @import '../assets/styles/variables';
 
+// header and links
 .resume-header {
   h1 {
     color: $primary-red;
@@ -45,6 +46,7 @@
   }
 }
 
+// 3D button for pdf download
 figure {
   width: 100px;
   height: 30px;
@@ -52,80 +54,71 @@ figure {
   perspective: 500px;
   -webkit-perspective: 500px;
   margin-bottom: 50px;
-}
+  &:hover div {
+    transform: rotateX(-90deg);
+  }
+  & div {
+    height: 100%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    .resume-button {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border: 0.75px solid black;
+      border-radius: 0.25rem;
+      font-family: 'Avenir Light', sans-serif;
+      line-height: 50px;
+      font-size: 8pt;
+      text-align: center;
+      text-transform: lowercase;
+      &:nth-child(1) {
+        color: black;
+        transform: translate3d(0, 0, 15px);
+        -webkit-transform: translate3d(0, 0, 15px);
+      }
+      &:nth-child(2) {
+        color: black;
+        background: rgba(255, 255, 255, 1);
+        transform: rotateX(90deg) translate3d(0, 0, 15px);
+        -webkit-transform: rotateX(90deg) translate3d(0, 0, 15px);
+      }
+      .button-face {
+        position: absolute;
+        top: -36.5%;
+        left: 24.5%;
+      }
 
-figure div {
-  height: 100%;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  transition: 0.25s;
-  -webkit-transition: 0.25s;
-}
-
-figure:hover div {
-  transform: rotateX(-90deg);
-}
-
-.submitstory {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  box-sizing: border-box;
-  border: 0.75px solid black;
-  font-family: 'Avenir Light', sans-serif;
-  line-height: 50px;
-  font-size: 8pt;
-  text-align: center;
-  text-transform: lowercase;
-}
-
-.submitstory:nth-child(1) {
-  color: black;
-  transform: translate3d(0, 0, 15px);
-  -webkit-transform: translate3d(0, 0, 15px);
-}
-
-.submitstory:nth-child(2) {
-  color: black;
-  background: rgba(255, 255, 255, 1);
-  transform: rotateX(90deg) translate3d(0, 0, 15px);
-  -webkit-transform: rotateX(90deg) translate3d(0, 0, 15px);
-}
-
-.storyone {
-  position: absolute;
-  top: -36.5%;
-  left: 24.5%;
-}
-
-.storytwo {
-  position: absolute;
-  top: -36.5%;
-  left: 40%;
-}
-
-.storytwo a {
-  font-family: 'Avenir Light', sans-serif;
-  color: black;
-  line-height: 50px;
-  font-size: 8pt;
-  text-align: center;
-  text-transform: lowercase;
-  text-decoration: none;
-}
-
-.storytwo a:hover {
-  font-family: 'Avenir Light', sans-serif;
-  // color: rgba(171, 68, 68, 1);
-  line-height: 50px;
-  font-size: 8pt;
-  text-align: center;
-  text-transform: lowercase;
-  text-decoration: none;
-  text-decoration: none;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  -webkit-transition: 1s;
-  transition: 1s;
+      .button-back {
+        position: absolute;
+        top: -36.5%;
+        left: 40%;
+        a {
+          font-family: 'Avenir Light', sans-serif;
+          color: black;
+          line-height: 50px;
+          font-size: 8pt;
+          text-align: center;
+          text-transform: lowercase;
+          text-decoration: none;
+          &:hover {
+            font-family: 'Avenir Light', sans-serif;
+            line-height: 50px;
+            font-size: 8pt;
+            text-align: center;
+            text-transform: lowercase;
+            text-decoration: none;
+            text-decoration: none;
+            -o-transition: 1s;
+            -ms-transition: 1s;
+            -moz-transition: 1s;
+            -webkit-transition: 1s;
+            transition: 1s;
+          }
+        }
+      }
+    }
+  }
 }
