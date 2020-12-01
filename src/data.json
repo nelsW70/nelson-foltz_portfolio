@@ -9,7 +9,7 @@
   ],
   "cards": [
     {
-      "image": "images/Triplemartini.jpg",
+      "image": "images/TripleMartini800x600.jpg",
       "title": "Triple Martini Productions",
       "description": "custom site for Triple Martini Productions",
       "role": "design | build",
@@ -17,7 +17,7 @@
       "link": "http://www.triplemartiniproductions.com"
     },
     {
-      "image": "images/PPG-IndustrialCoatings.jpg",
+      "image": "images/IC800x600.jpg",
       "title": "PPG Industrial Coatings",
       "description": "site for PPG Industrial Coatings",
       "role": "lead front-end developer",
@@ -25,7 +25,7 @@
       "link": "https://www.ppgindustrialcoatings.com/"
     },
     {
-      "image": "images/Fielder.jpg",
+      "image": "images/Fiedler800x600.jpg",
       "title": "Joe Fiedler",
       "description": "custom site for musician|composer Joe Fiedler",
       "role": "design | build",
@@ -33,8 +33,8 @@
       "link": "https://joefiedler.com/"
     },
     {
-      "image": "images/Reportal.jpg",
-      "title": "ClientLink - Reportal",
+      "image": "images/Reportal800x600.jpg",
+      "title": "ClientLink - Reportal Demo",
       "description": "CRM tool for PPG customers | Angular portal nested in existing SAP site",
       "role": "lead front-end developer",
       "skills": "Angular7, Angular Material, SAP Fiori Fundamentals, HTML, SASS",
@@ -42,16 +42,16 @@
       "additionalNotes": "demo UI layer only"
     },
     {
-      "image": "images/Edmaier.jpg",
+      "image": "images/Edmaier800x600.jpg",
       "title": "Bernhard Edmaier",
-      "description": "mock sites for photographer Bernhard Edmaier",
+      "description": "Bernhard Edmaier faux sites",
       "role": "design | build",
       "skills": "React, Angular, AngularJS, HTML, CSS, JavaScript",
       "link": "https://nelsw70.github.io/bernhardsite/html"
     },
     {
-      "image": "images/AA-Demo.jpg",
-      "title": "Automation Assessment",
+      "image": "images/AA-Demo800x600.jpg",
+      "title": "Automation Assessment Demo",
       "description": "",
       "role": "front-end developer",
       "skills": "HTMl, CSS, JavaScript",
