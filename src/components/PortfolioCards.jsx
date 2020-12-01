@@ -56,7 +56,7 @@ const PortfolioCards = () => {
               <div className="card__content">
                 <div className="card__title">{title}</div>
                 <p className="card__text">{role}</p>
-                <p className="card__text">{skills}</p>
+                <p className="card__skills">{skills}</p>
                 <button className="btn btn--block card__btn">Button</button>
               </div>
             </div>
