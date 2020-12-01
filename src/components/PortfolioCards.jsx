@@ -55,12 +55,7 @@ const PortfolioCards = () => {
               ></div>
               <div className="card__content">
                 <div className="card__title">{title}</div>
-                <p className="card__text">
-                  This is the shorthand for flex-grow, flex-shrink and
-                  flex-basis combined. The second and third parameters
-                  (flex-shrink and flex-basis) are optional. Default is 0 1
-                  auto.{' '}
-                </p>
+                <p className="card__text">{description}</p>
                 <button className="btn btn--block card__btn">Button</button>
               </div>
             </div>
@@ -72,5 +67,3 @@ const PortfolioCards = () => {
 };
 
 export default PortfolioCards;
-
-// https://codepen.io/lottejackson/pen/PwvjPj?editors=1100
