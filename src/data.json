@@ -34,7 +34,7 @@
     },
     {
       "image": "images/Reportal800x600.jpg",
-      "title": "ClientLink - Reportal Demo",
+      "title": "ClientLink - Reportal",
       "description": "CRM tool for PPG customers | Angular portal nested in existing SAP site",
       "role": "lead front-end developer",
       "skills": "Angular7, Angular Material, SAP Fiori Fundamentals, HTML, SASS",
@@ -51,8 +51,8 @@
     },
     {
       "image": "images/AA-Demo800x600.jpg",
-      "title": "Automation Assessment Demo",
-      "description": "",
+      "title": "Automation Assessment",
+      "description": "demo site for survey tool",
       "role": "front-end developer",
       "skills": "HTMl, CSS, JavaScript",
       "link": "https://s3.us-east-2.amazonaws.com/aa-sdlc-demo/index.html",
