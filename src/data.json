@@ -12,32 +12,32 @@
       "image": "images/TripleMartini800x600.jpg",
       "title": "Triple Martini Productions",
       "description": "custom site for Triple Martini Productions",
-      "role": "design | build",
-      "skills": "HTML, CSS, JavaScript, PHP",
+      "role": "design | developer",
+      "skills": "HTML | CSS | JavaScript | PHP",
       "link": "http://www.triplemartiniproductions.com"
     },
     {
       "image": "images/IC800x600.jpg",
       "title": "PPG Industrial Coatings",
       "description": "site for PPG Industrial Coatings",
-      "role": "lead front-end developer",
-      "skills": "Razor Pages, HTML, SASS, BEM, C#, JavaScript",
+      "role": "front-end developer",
+      "skills": "Razor Pages | HTML | SASS | C# | JavaScript",
       "link": "https://www.ppgindustrialcoatings.com/"
     },
     {
       "image": "images/Fiedler800x600.jpg",
       "title": "Joe Fiedler",
       "description": "custom site for musician|composer Joe Fiedler",
-      "role": "design | build",
-      "skills": "HTML, CSS, JavaScript, PHP",
+      "role": "design | developer",
+      "skills": "HTML | CSS | JavaScript | PHP",
       "link": "https://joefiedler.com/"
     },
     {
       "image": "images/Reportal800x600.jpg",
       "title": "ClientLink - Reportal",
       "description": "CRM tool for PPG customers | Angular portal nested in existing SAP site",
-      "role": "lead front-end developer",
-      "skills": "Angular7, Angular Material, SAP Fiori Fundamentals, HTML, SASS",
+      "role": "front-end developer",
+      "skills": "Angular7 | Angular Material | HTML | SASS",
       "link": "http://reportal-demo.s3-website.us-east-2.amazonaws.com/pricing-lookup",
       "additionalNotes": "demo UI layer only"
     },
@@ -45,8 +45,8 @@
       "image": "images/Edmaier800x600.jpg",
       "title": "Bernhard Edmaier",
       "description": "Bernhard Edmaier faux sites",
-      "role": "design | build",
-      "skills": "React, Angular, AngularJS, HTML, CSS, JavaScript",
+      "role": "design | developer",
+      "skills": "React | Angular | AngularJS | HTML | CSS",
       "link": "https://nelsw70.github.io/bernhardsite/html"
     },
     {
@@ -54,7 +54,7 @@
       "title": "Automation Assessment",
       "description": "demo site for survey tool",
       "role": "front-end developer",
-      "skills": "HTMl, CSS, JavaScript",
+      "skills": "HTMl | CSS | JavaScript",
       "link": "https://s3.us-east-2.amazonaws.com/aa-sdlc-demo/index.html",
       "additionalNotes": "client-side form validaton disabled for demo"
     }
