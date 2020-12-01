@@ -18,6 +18,7 @@ $tertiary-black: rgba(0, 0, 0, 0.25);
 $primary-grey: rgba(204, 204, 204, 1);
 $primary-red: rgba(167, 83, 81, 1);
 $primary-white: rgba(240, 240, 240, 1);
+$secondary-white: rgba(255, 255, 255, 1);
 
 $medium-width: 640px;
 $large-width: 896px;
@@ -132,16 +133,25 @@ Portfolio
 
   a {
     &.btn {
-      background-color: white;
+      background-color: $secondary-white;
       border: 1px solid $primary-grey;
       color: $secondary-black;
+      font-size: 0.625rem;
       padding: 0.5rem;
-      text-transform: lowercase;
+      text-transform: uppercase;
+      text-decoration: none;
       text-align: center;
       cursor: pointer;
+      transition: all 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+      &:hover {
+        border: 1px solid $primary-black;
+        color: $primary-black;
+        transition: all 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+      }
+
       &--block {
         display: block;
-        width: 100%;
+        width: fit-content;
       }
     }
   }
@@ -220,20 +230,20 @@ Portfolio
     &__text {
       color: $secondary-black;
       -webkit-box-flex: 1;
-      // flex: 1 1 auto;
-      font-size: 0.75rem;
+      font-size: 0.85rem;
       line-height: 1.5;
       margin: 0.5rem 0 0 0;
       text-transform: uppercase;
     }
     &__skills {
-      color: $secondary-black;
+      color: $primary-black;
       -webkit-box-flex: 1;
       flex: 1 1 auto;
-      font-size: 0.75rem;
+      font-size: 0.725rem;
       line-height: 1.5;
-      margin: 0.25rem 0 1rem 0;
+      margin: 0.5rem 0 1.5rem 0;
       text-transform: uppercase;
+      font-style: italic;
     }
   }
 }

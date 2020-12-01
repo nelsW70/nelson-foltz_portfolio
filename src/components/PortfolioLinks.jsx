@@ -4,7 +4,6 @@ import { useGlobalContext } from '../context';
 
 const PortfolioLinks = () => {
   const { links } = useGlobalContext();
-  console.log('links', links);
   return (
     <section className="portfolio-links">
       <ul>
