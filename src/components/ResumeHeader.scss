@@ -6,7 +6,7 @@
     color: $primary-red;
   }
   & .resume-links {
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     ul {
       font-size: 0.75rem;
       list-style: none;
@@ -47,75 +47,78 @@
 }
 
 // 3D button for pdf download
-figure {
-  width: 100px;
-  height: 30px;
-  cursor: pointer;
-  perspective: 500px;
-  -webkit-perspective: 500px;
-  margin-bottom: 50px;
-  &:hover div {
-    transform: rotateX(-90deg);
-  }
-  & div {
-    height: 100%;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    transition: 0.25s;
-    -webkit-transition: 0.25s;
-    .resume-button {
-      width: 100%;
+.download-button {
+  margin: 1.5rem 0;
+  figure {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    perspective: 500px;
+    -webkit-perspective: 500px;
+    margin-bottom: 50px;
+    &:hover div {
+      transform: rotateX(-90deg);
+    }
+    & div {
       height: 100%;
-      position: absolute;
-      border: 0.75px solid black;
-      border-radius: 0.25rem;
-      font-family: 'Avenir Light', sans-serif;
-      line-height: 50px;
-      font-size: 8pt;
-      text-align: center;
-      text-transform: lowercase;
-      &:nth-child(1) {
-        color: black;
-        transform: translate3d(0, 0, 15px);
-        -webkit-transform: translate3d(0, 0, 15px);
-      }
-      &:nth-child(2) {
-        color: black;
-        background: rgba(255, 255, 255, 1);
-        transform: rotateX(90deg) translate3d(0, 0, 15px);
-        -webkit-transform: rotateX(90deg) translate3d(0, 0, 15px);
-      }
-      .button-face {
+      transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+      transition: 0.25s;
+      -webkit-transition: 0.25s;
+      .resume-button {
+        width: 100%;
+        height: 100%;
         position: absolute;
-        top: -36.5%;
-        left: 24.5%;
-      }
+        border: 0.75px solid $secondary-black;
+        border-radius: 0.25rem;
+        font-family: 'Avenir Light', sans-serif;
+        line-height: 50px;
+        font-size: 8pt;
+        text-align: center;
+        text-transform: lowercase;
+        &:nth-child(1) {
+          color: $primary-black;
+          transform: translate3d(0, 0, 15px);
+          -webkit-transform: translate3d(0, 0, 15px);
+        }
+        &:nth-child(2) {
+          color: $primary-black;
+          background: $primary-white;
+          transform: rotateX(90deg) translate3d(0, 0, 15px);
+          -webkit-transform: rotateX(90deg) translate3d(0, 0, 15px);
+        }
+        .button-face {
+          position: absolute;
+          top: -36.5%;
+          left: 24.5%;
+        }
 
-      .button-back {
-        position: absolute;
-        top: -36.5%;
-        left: 40%;
-        a {
-          font-family: 'Avenir Light', sans-serif;
-          color: black;
-          line-height: 50px;
-          font-size: 8pt;
-          text-align: center;
-          text-transform: lowercase;
-          text-decoration: none;
-          &:hover {
+        .button-back {
+          position: absolute;
+          top: -36.5%;
+          left: 40%;
+          a {
             font-family: 'Avenir Light', sans-serif;
+            color: $primary-black;
             line-height: 50px;
             font-size: 8pt;
             text-align: center;
             text-transform: lowercase;
             text-decoration: none;
-            text-decoration: none;
-            -o-transition: 1s;
-            -ms-transition: 1s;
-            -moz-transition: 1s;
-            -webkit-transition: 1s;
-            transition: 1s;
+            &:hover {
+              font-family: 'Avenir Light', sans-serif;
+              line-height: 50px;
+              font-size: 8pt;
+              text-align: center;
+              text-transform: lowercase;
+              text-decoration: none;
+              text-decoration: none;
+              -o-transition: 1s;
+              -ms-transition: 1s;
+              -moz-transition: 1s;
+              -webkit-transition: 1s;
+              transition: 1s;
+            }
           }
         }
       }

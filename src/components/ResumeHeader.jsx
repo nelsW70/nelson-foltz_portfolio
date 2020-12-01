@@ -7,20 +7,22 @@ const ResumeHeader = () => {
     <header className="resume-header">
       <h1>Nelson Foltz</h1>
       <ResumeLinks />
-      <figure>
-        <div>
-          <span className="resume-button">
-            <p className="button-face">download</p>
-          </span>
-          <span className="resume-button">
-            <p className="button-back">
-              <a href="/Nelson_Foltz.pdf" download>
-                pdf
-              </a>
-            </p>
-          </span>
-        </div>
-      </figure>
+      <article className="download-button">
+        <figure>
+          <div>
+            <span className="resume-button">
+              <p className="button-face">download</p>
+            </span>
+            <span className="resume-button">
+              <p className="button-back">
+                <a href="/Nelson_Foltz.pdf" download>
+                  pdf
+                </a>
+              </p>
+            </span>
+          </div>
+        </figure>
+      </article>
     </header>
   );
 };
