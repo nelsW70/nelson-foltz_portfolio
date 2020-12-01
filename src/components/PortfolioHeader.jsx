@@ -1,5 +1,6 @@
 import React from 'react';
 import PortfolioLinks from './PortfolioLinks';
+import './PortfolioHeader.scss';
 
 const PortfolioHeader = () => {
   return (

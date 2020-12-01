@@ -3,8 +3,6 @@ import React from 'react';
 import PortfolioHeader from '../components/PortfolioHeader';
 import PortfolioCards from '../components/PortfolioCards';
 
-import Footer from '../components/Footer';
-
 const Portfolio = () => {
   return (
     <>
@@ -12,7 +10,6 @@ const Portfolio = () => {
       <main>
         <PortfolioCards />
       </main>
-      <Footer />
     </>
   );
 };
