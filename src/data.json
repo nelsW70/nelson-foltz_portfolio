@@ -7,6 +7,17 @@
       "url": "https://www.linkedin.com/in/nelson-foltz-92b1b653/"
     }
   ],
+  "resumeLinks": [
+    { "text": "email", "url": "mailto:nelsfoltz@gmail.com" },
+    {
+      "text": "github",
+      "url": "https://github.com/nelsW70"
+    },
+    {
+      "text": "linkedin",
+      "url": "https://www.linkedin.com/in/nelson-foltz-92b1b653/"
+    }
+  ],
   "cards": [
     {
       "image": "images/Martini800x600.jpg",

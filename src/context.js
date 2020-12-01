@@ -4,11 +4,27 @@ import data from './data.json';
 const AppContext = React.createContext({});
 
 const AppProvider = ({ children }) => {
-  const { links, cards, keySkills, education, projects, experience } = data;
+  const {
+    links,
+    resumeLinks,
+    cards,
+    keySkills,
+    education,
+    projects,
+    experience
+  } = data;
 
   return (
     <AppContext.Provider
-      value={{ links, cards, keySkills, education, projects, experience }}
+      value={{
+        links,
+        resumeLinks,
+        cards,
+        keySkills,
+        education,
+        projects,
+        experience
+      }}
     >
       {children}
     </AppContext.Provider>

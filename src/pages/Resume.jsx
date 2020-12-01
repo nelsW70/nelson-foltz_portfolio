@@ -12,7 +12,7 @@ const Resume = () => {
   return (
     <>
       <ResumeHeader />
-      <main>
+      <main className="resume-main">
         <ResumeAbout />
         <ResumeKeySkills />
         <ResumeEducation />

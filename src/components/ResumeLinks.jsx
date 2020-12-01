@@ -2,15 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 
-const PortfolioLinks = () => {
-  const { links } = useGlobalContext();
+const ResumeLinks = () => {
+  const { resumeLinks } = useGlobalContext();
+  console.log(resumeLinks, 'resume from links');
   return (
-    <nav className="portfolio-links">
+    <nav className="resume-links">
       <ul>
-        <Link to="/resume">
-          <li>resume</li>
+        <Link to="/">
+          <li>portfolio</li>
         </Link>
-        {links.map((item, index) => {
+        {resumeLinks.map((item, index) => {
           return (
             <a key={index} href={item.url} target="_blank" rel="noreferrer">
               <li>{item.text}</li>
@@ -22,4 +23,4 @@ const PortfolioLinks = () => {
   );
 };
 
-export default PortfolioLinks;
+export default ResumeLinks;
