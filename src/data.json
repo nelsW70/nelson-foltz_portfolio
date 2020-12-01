@@ -9,7 +9,7 @@
   ],
   "cards": [
     {
-      "image": "insert image here",
+      "image": "images/Triplemartini.jpg",
       "title": "Triple Martini Productions",
       "description": "custom site for Triple Martini Productions",
       "role": "design | build",
@@ -17,7 +17,7 @@
       "link": "http://www.triplemartiniproductions.com"
     },
     {
-      "image": "insert image here",
+      "image": "images/PPG-IndustrialCoatings.jpg",
       "title": "PPG Industrial Coatings",
       "description": "site for PPG Industrial Coatings",
       "role": "lead front-end developer",
@@ -25,7 +25,7 @@
       "link": "https://www.ppgindustrialcoatings.com/"
     },
     {
-      "image": "insert image here",
+      "image": "images/Fielder.jpg",
       "title": "Joe Fiedler",
       "description": "custom site for musician|composer Joe Fiedler",
       "role": "design | build",
@@ -33,7 +33,7 @@
       "link": "https://joefiedler.com/"
     },
     {
-      "image": "insert image here",
+      "image": "images/Reportal.jpg",
       "title": "ClientLink - Reportal",
       "description": "CRM tool for PPG customers | Angular portal nested in existing SAP site",
       "role": "lead front-end developer",
@@ -42,7 +42,7 @@
       "additionalNotes": "demo UI layer only"
     },
     {
-      "image": "insert image here",
+      "image": "images/Edmaier.jpg",
       "title": "Bernhard Edmaier",
       "description": "mock sites for photographer Bernhard Edmaier",
       "role": "design | build",
@@ -50,7 +50,7 @@
       "link": "https://nelsw70.github.io/bernhardsite/html"
     },
     {
-      "image": "insert image here",
+      "image": "images/AA-Demo.jpg",
       "title": "Automation Assessment",
       "description": "",
       "role": "front-end developer",
