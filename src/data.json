@@ -44,15 +44,6 @@
       "link": "https://joefiedler.com/"
     },
     {
-      "image": "images/Reportal800x600.jpg",
-      "title": "ClientLink - Reportal",
-      "role": "front-end developer",
-      "skills": "Angular7 | Angular Material | HTML | SASS",
-      "siteType": "demo",
-      "link": "http://reportal-demo.s3-website.us-east-2.amazonaws.com/pricing-lookup",
-      "additionalNotes": "demo UI layer only"
-    },
-    {
       "image": "images/Edmaier800x600.jpg",
       "title": "Bernhard Edmaier",
       "role": "design | developer",
@@ -68,6 +59,15 @@
       "siteType": "demo",
       "link": "https://s3.us-east-2.amazonaws.com/aa-sdlc-demo/index.html",
       "additionalNotes": "client-side form validaton disabled for demo"
+    },
+    {
+      "image": "images/Reportal800x600.jpg",
+      "title": "ClientLink - Reportal",
+      "role": "front-end developer",
+      "skills": "Angular7 | Angular Material | HTML | SASS",
+      "siteType": "demo",
+      "link": "http://reportal-demo.s3-website.us-east-2.amazonaws.com/pricing-lookup",
+      "additionalNotes": "demo UI layer only"
     }
   ],
   "keySkills": [
