@@ -8,6 +8,8 @@ import ResumeProjects from '../components/ResumeProjects';
 import ResumeExperience from '../components/ResumeExperience';
 import ResumeReferences from '../components/ResumeReferences';
 
+import './Resume.scss';
+
 const Resume = () => {
   useEffect(() => {
     document.title = 'Nelson Foltz | Resume';

@@ -3,6 +3,7 @@
 SASS Variables
 ======
 */
+
 @import 'assets/styles/variables';
 
 /* 
@@ -10,6 +11,7 @@ SASS Variables
 Google Font
 ======
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 
 /* 
@@ -38,23 +40,14 @@ code {
     monospace;
 }
 
+/* 
+====== 
+Typography
+======
+*/
+
 h1 {
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.0125rem;
-}
-
-/* 
-====== 
-Resume
-======
-*/
-
-.resume {
-  &-wrapper {
-    padding: 1rem;
-  }
-  &-main {
-    max-width: 600px;
-  }
 }
