@@ -3,12 +3,6 @@
 .portfolio-header {
   max-width: 600px;
   padding: 1rem;
-  h1 {
-    line-height: 2rem;
-  }
-  & span {
-    color: $primary-red;
-  }
   & .portfolio-links {
     margin: 5% 0;
     @media screen and (min-width: $medium-width) {

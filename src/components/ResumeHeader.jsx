@@ -1,11 +1,11 @@
 import React from 'react';
-import './ResumeHeader.scss';
 import ResumeLinks from './ResumeLinks';
+import './ResumeHeader.scss';
 
 const ResumeHeader = () => {
   return (
     <header className="resume-header">
-      <h1>Nelson Foltz</h1>
+      <h1 className="text-red">Nelson Foltz</h1>
       <ResumeLinks />
       <article className="download-button">
         <figure>
