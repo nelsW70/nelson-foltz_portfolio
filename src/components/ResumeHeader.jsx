@@ -1,6 +1,7 @@
 import React from 'react';
 import ResumeLinks from './ResumeLinks';
 import './ResumeHeader.scss';
+import Pdf from '../downloads/Nelson_Foltz.pdf';
 
 const ResumeHeader = () => {
   return (
@@ -15,7 +16,7 @@ const ResumeHeader = () => {
             </span>
             <span className="resume-button">
               <p className="button-back">
-                <a href="/assets/downloads/Nelson_Foltz-test.pdf" download>
+                <a href={Pdf} target="_blank" rel="noreferrer" download>
                   pdf
                 </a>
               </p>
