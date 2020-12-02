@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Error = () => {
+  useEffect(() => {
+    document.title = 'Nelson Foltz | Error';
+  }, []);
   return (
     <section>
       <h1>
