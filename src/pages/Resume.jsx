@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import ResumeHeader from '../components/ResumeHeader';
 import ResumeKeySkills from '../components/ResumeKeySkills';
@@ -9,6 +9,10 @@ import ResumeExperience from '../components/ResumeExperience';
 import ResumeReferences from '../components/ResumeReferences';
 
 const Resume = () => {
+  useEffect(() => {
+    document.title = 'Nelson Foltz | Resume';
+  }, []);
+
   return (
     <div className="resume-wrapper">
       <ResumeHeader />
