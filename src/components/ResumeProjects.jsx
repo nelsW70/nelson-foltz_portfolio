@@ -10,8 +10,8 @@ const ResumeProjects = () => {
       {projects.map((item, index) => {
         const { project, company, info } = item;
         return (
-          <div key={index}>
-            <h3>
+          <article key={index}>
+            <h3 className="italic">
               {project} <span>{company}</span>
             </h3>
             <ul>
@@ -19,7 +19,7 @@ const ResumeProjects = () => {
                 return <li key={index}>{item}</li>;
               })}
             </ul>
-          </div>
+          </article>
         );
       })}
     </section>

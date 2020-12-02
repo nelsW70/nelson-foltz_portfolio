@@ -10,10 +10,10 @@ const ResumeEducation = () => {
       {education.map((school, index) => {
         const { institution, description } = school;
         return (
-          <div key={index}>
-            <h3>{institution}</h3>
-            <h4>{description}</h4>
-          </div>
+          <article key={index}>
+            <h3 className="italic">{institution}</h3>
+            <p>{description}</p>
+          </article>
         );
       })}
     </section>
