@@ -18,7 +18,7 @@ const Resume = () => {
   return (
     <div className="resume-wrapper">
       <ResumeHeader />
-      <main className="resume-main">
+      <main>
         <ResumeAbout />
         <ResumeKeySkills />
         <ResumeEducation />
