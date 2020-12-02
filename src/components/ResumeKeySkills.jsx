@@ -9,7 +9,11 @@ const ResumeKeySkills = () => {
       <h2>key skills</h2>
       <ul>
         {keySkills.map((skill, index) => {
-          return <li key={index}>{skill}</li>;
+          return (
+            <li key={index}>
+              <h3>{skill}</h3>
+            </li>
+          );
         })}
       </ul>
     </section>
