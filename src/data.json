@@ -20,7 +20,7 @@
   ],
   "cards": [
     {
-      "image": "images/Martini800x600.jpg",
+      "image": "assets/images/Martini800x600.jpg",
       "title": "Triple Martini Productions",
       "role": "design | developer",
       "skills": "HTML | CSS | JavaScript | PHP",
@@ -28,7 +28,7 @@
       "link": "http://www.triplemartiniproductions.com"
     },
     {
-      "image": "images/IC800x600.jpg",
+      "image": "assets/images/IC800x600.jpg",
       "title": "PPG Industrial Coatings",
       "role": "front-end developer",
       "skills": "Razor Pages | HTML | SASS | C# | JavaScript",
@@ -36,7 +36,7 @@
       "link": "https://www.ppgindustrialcoatings.com/"
     },
     {
-      "image": "images/Fiedler800x600.jpg",
+      "image": "assets/images/Fiedler800x600.jpg",
       "title": "Joe Fiedler",
       "role": "design | developer",
       "skills": "HTML | CSS | JavaScript | PHP",
@@ -44,7 +44,7 @@
       "link": "https://joefiedler.com/"
     },
     {
-      "image": "images/Edmaier800x600.jpg",
+      "image": "assets/images/Edmaier800x600.jpg",
       "title": "Bernhard Edmaier",
       "role": "design | developer",
       "skills": "React | Angular | AngularJS | HTML | CSS",
@@ -52,7 +52,7 @@
       "link": "https://nelsw70.github.io/bernhardsite/html"
     },
     {
-      "image": "images/AA-Demo800x600.jpg",
+      "image": "assets/images/AA-Demo800x600.jpg",
       "title": "Automation Assessment",
       "role": "front-end developer",
       "skills": "HTMl | CSS | JavaScript",
@@ -61,7 +61,7 @@
       "additionalNotes": "client-side form validaton disabled for demo"
     },
     {
-      "image": "images/Reportal800x600.jpg",
+      "image": "assets/images/Reportal800x600.jpg",
       "title": "ClientLink - Reportal",
       "role": "front-end developer",
       "skills": "Angular7 | Angular Material | HTML | SASS",
@@ -212,7 +212,7 @@
   ],
   "experience": [
     "Front-End Developer | PPG Industries | March 2019 - Present",
-    "Front-End Developer / UX Designer | SDLC Partners | October 2017 – February 2019",
+    "Front-End Developer - UX Designer | SDLC Partners | October 2017 – February 2019",
     "Front-End Developer | Work Hard Pittsburgh | May 2017 – May 2019",
     "Front-End Developer | Freelance | April 2015 - present",
     "Buyer | Dillon Music – Woodbridge, NJ | September 1998 – February 2017",

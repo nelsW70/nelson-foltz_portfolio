@@ -15,7 +15,7 @@ const ResumeHeader = () => {
             </span>
             <span className="resume-button">
               <p className="button-back">
-                <a href="/Nelson_Foltz.pdf" download>
+                <a href="/assets/downloads/Nelson_Foltz-test.pdf" download>
                   pdf
                 </a>
               </p>
