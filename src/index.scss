@@ -50,6 +50,11 @@ Resume
 ======
 */
 
-.resume-main {
-  max-width: 600px;
+.resume {
+  &-wrapper {
+    padding: 1rem;
+  }
+  &-main {
+    max-width: 600px;
+  }
 }

@@ -10,7 +10,7 @@ import ResumeReferences from '../components/ResumeReferences';
 
 const Resume = () => {
   return (
-    <>
+    <div className="resume-wrapper">
       <ResumeHeader />
       <main className="resume-main">
         <ResumeAbout />
@@ -20,7 +20,7 @@ const Resume = () => {
         <ResumeExperience />
         <ResumeReferences />
       </main>
-    </>
+    </div>
   );
 };
 
