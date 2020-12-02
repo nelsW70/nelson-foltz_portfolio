@@ -7,7 +7,7 @@ const PortfolioCards = () => {
   return (
     <ul className="cards">
       {cards.map((card, index) => {
-        const { image, title, role, skills, link } = card;
+        const { image, title, role, skills, siteType, link } = card;
         return (
           <li className="cards__item" key={index}>
             <div className="card">
@@ -25,7 +25,7 @@ const PortfolioCards = () => {
                   rel="noreferrer"
                   className="btn btn--block card__btn"
                 >
-                  view site
+                  view {siteType}
                 </a>
               </div>
             </div>

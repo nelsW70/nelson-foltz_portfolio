@@ -25,6 +25,7 @@
       "description": "custom site for Triple Martini Productions",
       "role": "design | developer",
       "skills": "HTML | CSS | JavaScript | PHP",
+      "siteType": "site",
       "link": "http://www.triplemartiniproductions.com"
     },
     {
@@ -33,6 +34,7 @@
       "description": "site for PPG Industrial Coatings",
       "role": "front-end developer",
       "skills": "Razor Pages | HTML | SASS | C# | JavaScript",
+      "siteType": "site",
       "link": "https://www.ppgindustrialcoatings.com/"
     },
     {
@@ -41,6 +43,7 @@
       "description": "custom site for musician|composer Joe Fiedler",
       "role": "design | developer",
       "skills": "HTML | CSS | JavaScript | PHP",
+      "siteType": "site",
       "link": "https://joefiedler.com/"
     },
     {
@@ -49,6 +52,7 @@
       "description": "CRM tool for PPG customers | Angular portal nested in existing SAP site",
       "role": "front-end developer",
       "skills": "Angular7 | Angular Material | HTML | SASS",
+      "siteType": "demo",
       "link": "http://reportal-demo.s3-website.us-east-2.amazonaws.com/pricing-lookup",
       "additionalNotes": "demo UI layer only"
     },
@@ -58,6 +62,7 @@
       "description": "Bernhard Edmaier faux sites",
       "role": "design | developer",
       "skills": "React | Angular | AngularJS | HTML | CSS",
+      "siteType": "site",
       "link": "https://nelsw70.github.io/bernhardsite/html"
     },
     {
@@ -66,6 +71,7 @@
       "description": "demo site for survey tool",
       "role": "front-end developer",
       "skills": "HTMl | CSS | JavaScript",
+      "siteType": "demo",
       "link": "https://s3.us-east-2.amazonaws.com/aa-sdlc-demo/index.html",
       "additionalNotes": "client-side form validaton disabled for demo"
     }
