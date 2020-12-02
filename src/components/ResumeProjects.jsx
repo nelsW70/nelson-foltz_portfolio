@@ -3,7 +3,6 @@ import { useGlobalContext } from '../context';
 
 const ResumeProjects = () => {
   const { projects } = useGlobalContext();
-  console.log(projects, 'projects');
 
   return (
     <section>

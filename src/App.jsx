@@ -5,8 +5,6 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Error from './pages/Error';
 
-import './App.scss';
-
 function App() {
   return (
     <Router>

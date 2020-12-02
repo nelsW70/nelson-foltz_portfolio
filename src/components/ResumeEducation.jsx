@@ -3,7 +3,6 @@ import { useGlobalContext } from '../context';
 
 const ResumeEducation = () => {
   const { education } = useGlobalContext();
-  console.log(education, 'education');
 
   return (
     <section>

@@ -4,7 +4,6 @@ import { useGlobalContext } from '../context';
 
 const ResumeLinks = () => {
   const { resumeLinks } = useGlobalContext();
-  console.log(resumeLinks, 'resume from links');
   return (
     <nav className="resume-links">
       <ul>
