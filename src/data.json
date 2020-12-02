@@ -22,7 +22,6 @@
     {
       "image": "images/Martini800x600.jpg",
       "title": "Triple Martini Productions",
-      "description": "custom site for Triple Martini Productions",
       "role": "design | developer",
       "skills": "HTML | CSS | JavaScript | PHP",
       "siteType": "site",
@@ -31,7 +30,6 @@
     {
       "image": "images/IC800x600.jpg",
       "title": "PPG Industrial Coatings",
-      "description": "site for PPG Industrial Coatings",
       "role": "front-end developer",
       "skills": "Razor Pages | HTML | SASS | C# | JavaScript",
       "siteType": "site",
@@ -40,7 +38,6 @@
     {
       "image": "images/Fiedler800x600.jpg",
       "title": "Joe Fiedler",
-      "description": "custom site for musician|composer Joe Fiedler",
       "role": "design | developer",
       "skills": "HTML | CSS | JavaScript | PHP",
       "siteType": "site",
@@ -49,7 +46,6 @@
     {
       "image": "images/Reportal800x600.jpg",
       "title": "ClientLink - Reportal",
-      "description": "CRM tool for PPG customers | Angular portal nested in existing SAP site",
       "role": "front-end developer",
       "skills": "Angular7 | Angular Material | HTML | SASS",
       "siteType": "demo",
@@ -59,7 +55,6 @@
     {
       "image": "images/Edmaier800x600.jpg",
       "title": "Bernhard Edmaier",
-      "description": "Bernhard Edmaier faux sites",
       "role": "design | developer",
       "skills": "React | Angular | AngularJS | HTML | CSS",
       "siteType": "site",
@@ -68,7 +63,6 @@
     {
       "image": "images/AA-Demo800x600.jpg",
       "title": "Automation Assessment",
-      "description": "demo site for survey tool",
       "role": "front-end developer",
       "skills": "HTMl | CSS | JavaScript",
       "siteType": "demo",
