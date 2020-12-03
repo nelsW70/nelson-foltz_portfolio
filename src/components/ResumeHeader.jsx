@@ -1,5 +1,4 @@
 import React from 'react';
-// import ResumeLinks from './ResumeLinks';
 import Links from './shared/Links';
 import './ResumeHeader.scss';
 import { useGlobalContext } from '../context';
@@ -7,12 +6,10 @@ import { useGlobalContext } from '../context';
 const ResumeHeader = () => {
   const { links, routerLinks } = useGlobalContext();
   const routerLinkText = routerLinks[1];
-  console.log(routerLinkText);
 
   return (
     <header className="resume-header">
       <h1 className="text-red">Nelson Foltz</h1>
-      {/* <ResumeLinks /> */}
       <Links data={links} routerLinkText={routerLinkText} />
       <article className="download-button">
         <figure>

@@ -6,7 +6,6 @@ import { useGlobalContext } from '../context';
 const PortfolioHeader = () => {
   const { links, routerLinks } = useGlobalContext();
   const routerLinkText = routerLinks[0];
-  console.log(routerLinkText);
 
   return (
     <header className="portfolio-header">
