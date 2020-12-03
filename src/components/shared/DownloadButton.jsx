@@ -7,9 +7,7 @@ const DownloadButton = () => {
       <figure>
         <div>
           <span className="resume-button">
-            <p className="button-face" tabIndex="0" role="button">
-              download
-            </p>
+            <p className="button-face">download</p>
           </span>
           <span className="resume-button">
             <p className="button-back">
