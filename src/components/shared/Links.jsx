@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Links.scss';
 
 const Links = props => {
   const [data] = useState(props.data);
   const [routerLinkText] = useState(props.routerLinkText);
-  console.log(data);
-  console.log(routerLinkText);
 
   return (
     <nav className="portfolio-links">
       <ul>
-        <Link to={`/${routerLinkText}`}>
-          <li>{routerLinkText}</li>
+        <Link to={`/${routerLinkText.path}`}>
+          <li>{routerLinkText.text}</li>
         </Link>
         {data.map((item, index) => {
           return (

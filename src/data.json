@@ -1,5 +1,8 @@
 {
-  "routerLinks": ["resume", "porfolio"],
+  "routerLinks": [
+    { "text": "resume", "path": "resume" },
+    { "text": "portfolio", "path": "" }
+  ],
   "links": [
     { "text": "github", "url": "https://github.com/nelsW70" },
     { "text": "email", "url": "mailto:nelsfoltz@gmail.com" },
