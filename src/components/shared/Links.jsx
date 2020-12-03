@@ -10,12 +10,16 @@ const Links = props => {
     <nav className="portfolio-links" role="navigation">
       <ul>
         <Link to={`/${routerLinkText.path}`}>
-          <li>{routerLinkText.text}</li>
+          <li role="link" aria-label={routerLinkText.text}>
+            {routerLinkText.text}
+          </li>
         </Link>
         {data.map((item, index) => {
           return (
             <a key={index} href={item.url} target="_blank" rel="noreferrer">
-              <li>{item.text}</li>
+              <li role="link" aria-label={`link to ${item.text}`}>
+                {item.text}
+              </li>
             </a>
           );
         })}
