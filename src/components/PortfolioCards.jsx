@@ -26,6 +26,7 @@ const PortfolioCards = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn--block card__btn"
+                  aria-label={`link to ${title} website`}
                 >
                   view {siteType}
                 </a>
