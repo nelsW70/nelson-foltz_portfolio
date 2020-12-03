@@ -10,7 +10,7 @@ const Links = props => {
     <nav className="portfolio-links" role="navigation">
       <ul>
         <Link to={`/${routerLinkText.path}`}>
-          <li role="link" aria-label={routerLinkText.text}>
+          <li role="link" aria-label={`link to ${routerLinkText.text}`}>
             {routerLinkText.text}
           </li>
         </Link>
