@@ -5,8 +5,8 @@ import './PortfolioHeader.scss';
 import { useGlobalContext } from '../context';
 
 const PortfolioHeader = () => {
-  const { links } = useGlobalContext();
-  const routerLinkText = 'resume';
+  const { links, routerLinks } = useGlobalContext();
+  const routerLinkText = routerLinks[0];
 
   return (
     <header className="portfolio-header">

@@ -5,6 +5,7 @@ const AppContext = React.createContext({});
 
 const AppProvider = ({ children }) => {
   const {
+    routerLinks,
     links,
     resumeLinks,
     cards,
@@ -17,6 +18,7 @@ const AppProvider = ({ children }) => {
   return (
     <AppContext.Provider
       value={{
+        routerLinks,
         links,
         resumeLinks,
         cards,
