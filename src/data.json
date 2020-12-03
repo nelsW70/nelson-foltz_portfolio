@@ -25,6 +25,7 @@
   "cards": [
     {
       "image": "assets/images/Martini800x600.jpg",
+      "altText": "woman running in field",
       "title": "Triple Martini Productions",
       "role": "design | developer",
       "skills": "HTML | CSS | JavaScript | PHP",
@@ -33,6 +34,7 @@
     },
     {
       "image": "assets/images/IC800x600.jpg",
+      "altText": "factory engineer",
       "title": "PPG Industrial Coatings",
       "role": "front-end developer",
       "skills": "Razor Pages | HTML | SASS | C# | JavaScript",
@@ -41,6 +43,7 @@
     },
     {
       "image": "assets/images/Fiedler800x600.jpg",
+      "altText": "man playing trombone",
       "title": "Joe Fiedler",
       "role": "design | developer",
       "skills": "HTML | CSS | JavaScript | PHP",
@@ -49,6 +52,7 @@
     },
     {
       "image": "assets/images/Edmaier800x600.jpg",
+      "altText": "river from above in helicopter",
       "title": "Bernhard Edmaier",
       "role": "design | developer",
       "skills": "React | Angular | AngularJS | HTML | CSS",
@@ -57,6 +61,7 @@
     },
     {
       "image": "assets/images/AA-Demo800x600.jpg",
+      "altText": "gears",
       "title": "Automation Assessment",
       "role": "front-end developer",
       "skills": "HTMl | CSS | JavaScript",
@@ -66,6 +71,7 @@
     },
     {
       "image": "assets/images/Reportal800x600.jpg",
+      "altText": "woman working at computer",
       "title": "ClientLink - Reportal",
       "role": "front-end developer",
       "skills": "Angular7 | Angular Material | HTML | SASS",

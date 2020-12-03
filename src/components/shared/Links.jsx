@@ -7,7 +7,7 @@ const Links = props => {
   const [routerLinkText] = useState(props.routerLinkText);
 
   return (
-    <nav className="portfolio-links">
+    <nav className="portfolio-links" role="navigation">
       <ul>
         <Link to={`/${routerLinkText.path}`}>
           <li>{routerLinkText.text}</li>

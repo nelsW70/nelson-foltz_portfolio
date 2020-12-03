@@ -7,13 +7,15 @@ const PortfolioCards = () => {
   return (
     <ul className="cards">
       {cards.map((card, index) => {
-        const { image, title, role, skills, siteType, link } = card;
+        const { image, altText, title, role, skills, siteType, link } = card;
         return (
           <li className="cards__item" key={index}>
             <div className="card">
               <div
                 className="card__image card__image--fence"
                 style={{ backgroundImage: `url(${image})` }}
+                role="img"
+                aria-label={altText}
               ></div>
               <div className="card__content">
                 <div className="card__title">{title}</div>
