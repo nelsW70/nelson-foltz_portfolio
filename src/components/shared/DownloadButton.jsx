@@ -4,10 +4,12 @@ import './DownloadButton.scss';
 const DownloadButton = () => {
   return (
     <article className="download-button">
-      <figure tabIndex="0" role="button">
+      <figure>
         <div>
           <span className="resume-button">
-            <p className="button-face">download</p>
+            <p className="button-face" tabIndex="0" role="button">
+              download
+            </p>
           </span>
           <span className="resume-button">
             <p className="button-back">
