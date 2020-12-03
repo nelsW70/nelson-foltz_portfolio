@@ -3,7 +3,7 @@ import './DownloadButton.scss';
 
 const DownloadButton = () => {
   return (
-    <article className="download-button">
+    <article className="download-button" tabindex="0" role="button">
       <figure>
         <div>
           <span className="resume-button">
