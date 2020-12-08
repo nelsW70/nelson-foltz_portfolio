@@ -5,6 +5,7 @@ const AppContext = React.createContext({});
 
 const AppProvider = ({ children }) => {
   const {
+    header,
     routerLinks,
     links,
     resumeLinks,
@@ -18,6 +19,7 @@ const AppProvider = ({ children }) => {
   return (
     <AppContext.Provider
       value={{
+        header,
         routerLinks,
         links,
         resumeLinks,

@@ -1,4 +1,11 @@
 {
+  "header": [
+    {
+      "title": "nelson foltz",
+      "content": "is a front-end developer who seeks collaborative environments where thoughtful development and beauty are the goal."
+    },
+    { "title": "nelson foltz" }
+  ],
   "routerLinks": [
     { "text": "resume", "path": "resume" },
     { "text": "portfolio", "path": "" }
