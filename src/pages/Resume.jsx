@@ -8,6 +8,7 @@ import ResumeEducation from '../components/ResumeEducation';
 import ResumeProjects from '../components/ResumeProjects';
 import ResumeExperience from '../components/ResumeExperience';
 import ResumeReferences from '../components/ResumeReferences';
+import ResumeDownloadButton from '../components/ResumeDownloadButton';
 
 import { useGlobalContext } from '../context';
 
@@ -27,27 +28,7 @@ const Resume = () => {
       <header>
         <Header headerText={headerText} />
         <Links data={links} routerLinkText={routerLinkText} />
-        <article className="download-button">
-          <figure>
-            <div>
-              <span className="resume-button">
-                <p className="button-face">download</p>
-              </span>
-              <span className="resume-button">
-                <p className="button-back">
-                  <a
-                    href="/downloads/Nelson_Foltz.pdf"
-                    target="_blank"
-                    rel="noreferrer"
-                    download
-                  >
-                    pdf
-                  </a>
-                </p>
-              </span>
-            </div>
-          </figure>
-        </article>
+        <ResumeDownloadButton />
       </header>
       <main className="resume-main">
         <ResumeAbout />
