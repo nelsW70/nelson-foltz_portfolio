@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
-
+import { useGlobalContext } from '../context';
 import Header from '../components/shared/Header';
 import PortfolioCards from '../components/PortfolioCards';
 import Links from '../components/shared/Links';
-import { useGlobalContext } from '../context';
 import './Portfolio.scss';
 
 const Portfolio = () => {

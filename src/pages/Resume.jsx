@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-
+import { useGlobalContext } from '../context';
 import Header from '../components/shared/Header';
 import Links from '../components/shared/Links';
 import ResumeKeySkills from '../components/ResumeKeySkills';
@@ -9,9 +9,6 @@ import ResumeProjects from '../components/ResumeProjects';
 import ResumeExperience from '../components/ResumeExperience';
 import ResumeReferences from '../components/ResumeReferences';
 import ResumeDownloadButton from '../components/ResumeDownloadButton';
-
-import { useGlobalContext } from '../context';
-
 import './Resume.scss';
 
 const Resume = () => {
