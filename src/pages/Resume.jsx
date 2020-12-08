@@ -23,7 +23,7 @@ const Resume = () => {
   }, []);
 
   return (
-    <div className="resume-wrapper">
+    <>
       <header>
         <Header headerText={headerText} />
         <Links data={links} routerLinkText={routerLinkText} />
@@ -49,7 +49,7 @@ const Resume = () => {
           </figure>
         </article>
       </header>
-      <main>
+      <main className="resume-main">
         <ResumeAbout />
         <ResumeKeySkills />
         <ResumeEducation />
@@ -57,7 +57,7 @@ const Resume = () => {
         <ResumeExperience />
         <ResumeReferences />
       </main>
-    </div>
+    </>
   );
 };
 

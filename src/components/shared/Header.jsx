@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Header.scss';
 
 const Header = props => {
   const [headerText] = useState(props.headerText);

@@ -1,54 +1,52 @@
 @import '../assets/styles/variables';
 
-.resume {
-  &-wrapper {
-    padding: 1rem;
-    .italic {
-      font-style: italic;
-      font-weight: 400;
+.resume-main {
+  padding: 0 1rem 1rem 1rem;
+  .italic {
+    font-style: italic;
+    font-weight: 400;
+  }
+  section {
+    max-width: 540px;
+    margin-bottom: 2.5em;
+    &.experience {
+      max-width: none;
     }
-    section {
-      max-width: 540px;
-      margin-bottom: 2.5em;
-      &.experience {
-        max-width: none;
-      }
-      article {
-        margin-bottom: 1.25rem;
-      }
-      h2 {
-        font-size: 1.175rem;
-        letter-spacing: 0.125rem;
-        margin: 0 0 1.25rem 0;
-      }
-      h3 {
-        font-size: 1.125rem;
-        font-weight: 400;
+    article {
+      margin-bottom: 1.25rem;
+    }
+    h2 {
+      font-size: 1.175rem;
+      letter-spacing: 0.125rem;
+      margin: 0 0 1.25rem 0;
+    }
+    h3 {
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      letter-spacing: $text-spacing-primary;
+      margin: 0 0 0.25rem 0;
+    }
+    ul {
+      padding-left: 2rem;
+      margin: 0.5rem 0 0.75rem 0;
+      li {
+        font-size: 1.0125rem;
         line-height: 1.5rem;
         letter-spacing: $text-spacing-primary;
-        margin: 0 0 0.25rem 0;
       }
-      ul {
-        padding-left: 2rem;
-        margin: 0.5rem 0 0.75rem 0;
-        li {
-          font-size: 1.0125rem;
-          line-height: 1.5rem;
-          letter-spacing: $text-spacing-primary;
-        }
-      }
-      p {
-        line-height: 1.275rem;
-        margin: 0.5rem 0 0.75rem 0;
-        letter-spacing: $text-spacing-primary;
-      }
-      &.experience {
-        article {
-          margin-bottom: 0.75rem;
-          h3 {
-            font-family: 'Roboto', sans-serif;
-            letter-spacing: unset;
-          }
+    }
+    p {
+      line-height: 1.275rem;
+      margin: 0.5rem 0 0.75rem 0;
+      letter-spacing: $text-spacing-primary;
+    }
+    &.experience {
+      article {
+        margin-bottom: 0.75rem;
+        h3 {
+          font-family: 'Roboto', sans-serif;
+          letter-spacing: unset;
         }
       }
     }
@@ -56,7 +54,6 @@
 }
 
 // Download button
-
 .download-button {
   margin: 1.75rem 0;
   figure {

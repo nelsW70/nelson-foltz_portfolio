@@ -21,7 +21,7 @@ const Portfolio = () => {
         <Header headerText={headerText} />
         <Links data={links} routerLinkText={routerLinkText} />
       </header>
-      <main>
+      <main className="portfolio-main">
         <PortfolioCards />
       </main>
     </>
