@@ -30,9 +30,9 @@ const Resume = () => {
       <main className="resume-main">
         <ResumeAbout />
         <ResumeKeySkills />
-        <ResumeEducation />
-        <ResumeProjects />
         <ResumeExperience />
+        <ResumeProjects />
+        <ResumeEducation />
         <ResumeReferences />
       </main>
     </>
