@@ -121,6 +121,14 @@
   ],
   "projects": [
     {
+      "project": "PPG Design System – Brad Frost and Josh Clark (Big Medium)",
+      "info": [
+        "primary front-end developer",
+        "building Angular/React components in token-based design system",
+        "HTML, SASS, JavaScript, Typescript, Angular, React"
+      ]
+    },
+    {
       "project": "Shadow DOM | ",
       "company": "SDLC Partners - Highmark",
       "info": [
