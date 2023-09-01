@@ -4,7 +4,7 @@ import { useGlobalContext } from '../context';
 const ResumeExperience = () => {
   const { experience } = useGlobalContext();
   return (
-    <section className="experience">
+    <section>
       <h2>experience</h2>
       {experience.map((job, index) => {
         return (

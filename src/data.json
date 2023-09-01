@@ -88,16 +88,16 @@
     }
   ],
   "resumeAbout": [
-    "As a front-end developer, Nelson seeks collaborative environments where thoughtful development and beauty are the goal. When he's not coding or playing music, Nelson is protecting the world from his overly affectionate rescue pups Molly and Dolly.",
+    "As a front-end developer, Nelson seeks collaborative environments where thoughtful development and user-focused experiences are the goal. When he's not coding or playing music, Nelson is protecting the world from his overly affectionate rescue pups Molly and Dolly.",
     "As a musician, Nelson Foltz has worked with such artists as Barry White, Steely Dan, Aretha Franklin, Spoon, Roberta Flack, The Colorado Symphony, Josh Ritter, Tony Bennett, Juliette Commagere, Dave Liebman, Joachim Cooder, Rebecca Martin, Tony Williams, and Maria Schneider. His credits include music for film, television and radio as well as performing in the orchestra for numerous broadway shows including The Lion King, Fosse, and Hairspray.",
     "Foltz's original recordings are regularly featured on NPR and PRI and his seventh album entitled \"Departure\" with longtime collaborator Tom Lynn was listed as \"Top Ten Tracks of 2014\" by legendary music critic Milo Miles (Rolling Stone/NPR/New York Times/Spin/Village Voice)."
   ],
   "keySkills": [
     "React",
     "Angular",
-    "HTML/CSS/SASS",
     "JavaScript",
-    "GIT",
+    "TypeScript",
+    "HTML/CSS/SASS",
     "Accessibility",
     "Responsive Web Development"
   ],
@@ -120,6 +120,63 @@
     }
   ],
   "projects": [
+    {
+      "project": "Craft Education | Base Two",
+      "info": [
+        "edtech progress tracking web app",
+        "Internal/customer facing dashboard",
+        "data visualization dashboard",
+        "Next, React, TS, GraphQL, MUI, VISX"
+      ]
+    },
+    {
+      "project": "Advon Commerce | Base Two",
+      "info": [
+        "content provider for e-commerce sites",
+        "Internal dashboard",
+        "Next, React, TS, MUI, RxJS, NIVO, Storybook"
+      ]
+    },
+    {
+      "project": "Kichler Lighting | Base Two",
+      "info": [
+        "lighting manufacturer",
+        "e-commerce site",
+        "Next, React, TS, Storybook"
+      ]
+    },
+    {
+      "project": "Cardinal Health | Base Two",
+      "info": [
+        "healthcare insurance provider",
+        "internal dashboard",
+        "Ember, CSS"
+      ]
+    },
+    {
+      "project": "NetJets | Base Two",
+      "info": [
+        "private jet rentals",
+        "static marketing banners",
+        "HTML, CSS, JS"
+      ]
+    },
+    {
+      "project": "CDS | Base Two",
+      "info": [
+        "employee benefit service provider",
+        "headless CMS sites",
+        "Next, React, TS, Tailwind, Sanity"
+      ]
+    },
+    {
+      "project": "Base2.io | Base Two",
+      "info": [
+        "software consultancy",
+        "company site",
+        "Next, React, TS, styled components"
+      ]
+    },
     {
       "project": "PPG Design System – Brad Frost and Josh Clark (Big Medium)",
       "info": [
@@ -241,11 +298,9 @@
     }
   ],
   "experience": [
-    "Front-End Developer | PPG Industries | March 2019 - Present",
+    "Software Engineer | Base Two | April 2021 - Present",
+    "Front-End Developer | PPG Industries | March 2019 - March 2021",
     "Front-End Developer - UX Designer | SDLC Partners | October 2017 – February 2019",
-    "Front-End Developer | Work Hard Pittsburgh | May 2017 – May 2019",
-    "Front-End Developer | Freelance | April 2015 - present",
-    "Buyer | Dillon Music – Woodbridge, NJ | September 1998 – February 2017",
     "Assistant to Lou Reed | Sister Ray Enterprises - NYC | 2005 - 2008",
     "Jazz Department Instructor | SUNY Purchase College - Westchester, NY | 2000 - 2004"
   ]
