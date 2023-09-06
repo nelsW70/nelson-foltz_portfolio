@@ -17,7 +17,7 @@ const ResumeDownloadButton = () => {
                 rel="noreferrer"
                 download
               >
-                pdf
+                <button>pdf</button>
               </a>
             </p>
           </span>
