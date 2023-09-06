@@ -31,15 +31,6 @@
   ],
   "cards": [
     {
-      "image": "assets/images/Martini800x600.jpg",
-      "altText": "woman running in field",
-      "title": "Triple Martini Productions",
-      "role": "design | developer",
-      "skills": "HTML | CSS | JavaScript | PHP",
-      "siteType": "site",
-      "link": "http://www.triplemartiniproductions.com"
-    },
-    {
       "image": "assets/images/IC800x600.jpg",
       "altText": "factory engineer",
       "title": "PPG Industrial Coatings",
@@ -58,13 +49,23 @@
       "link": "https://joefiedler.com/"
     },
     {
-      "image": "assets/images/Edmaier800x600.jpg",
-      "altText": "river from above in helicopter",
-      "title": "Bernhard Edmaier",
+      "image": "assets/images/Reportal800x600.jpg",
+      "altText": "woman working at computer",
+      "title": "ClientLink - Reportal",
+      "role": "front-end developer",
+      "skills": "Angular7 | Angular Material | HTML | SASS",
+      "siteType": "demo",
+      "link": "http://reportal-demo.s3-website.us-east-2.amazonaws.com/pricing-lookup",
+      "additionalNotes": "demo UI layer only"
+    },
+    {
+      "image": "assets/images/Martini800x600.jpg",
+      "altText": "woman running in field",
+      "title": "Triple Martini Productions",
       "role": "design | developer",
-      "skills": "React | Angular | AngularJS | HTML | CSS",
+      "skills": "HTML | CSS | JavaScript | PHP",
       "siteType": "site",
-      "link": "https://nelsw70.github.io/bernhardsite/html"
+      "link": "http://www.triplemartiniproductions.com"
     },
     {
       "image": "assets/images/AA-Demo800x600.jpg",
@@ -77,14 +78,13 @@
       "additionalNotes": "client-side form validaton disabled for demo"
     },
     {
-      "image": "assets/images/Reportal800x600.jpg",
-      "altText": "woman working at computer",
-      "title": "ClientLink - Reportal",
-      "role": "front-end developer",
-      "skills": "Angular7 | Angular Material | HTML | SASS",
-      "siteType": "demo",
-      "link": "http://reportal-demo.s3-website.us-east-2.amazonaws.com/pricing-lookup",
-      "additionalNotes": "demo UI layer only"
+      "image": "assets/images/Edmaier800x600.jpg",
+      "altText": "river from above in helicopter",
+      "title": "Bernhard Edmaier",
+      "role": "design | developer",
+      "skills": "React | Angular | AngularJS | HTML | CSS",
+      "siteType": "site",
+      "link": "https://nelsw70.github.io/bernhardsite/html"
     }
   ],
   "resumeAbout": [
