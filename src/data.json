@@ -31,15 +31,6 @@
   ],
   "cards": [
     {
-      "image": "assets/images/Martini800x600.jpg",
-      "altText": "woman running in field",
-      "title": "Triple Martini Productions",
-      "role": "design | developer",
-      "skills": "HTML | CSS | JavaScript | PHP",
-      "siteType": "site",
-      "link": "http://www.triplemartiniproductions.com"
-    },
-    {
       "image": "assets/images/IC800x600.jpg",
       "altText": "factory engineer",
       "title": "PPG Industrial Coatings",

@@ -44,12 +44,15 @@
     display: flex;
     flex: 1 1 auto;
     padding: 1rem;
+    width: 100%;
 
     @media (min-width: $medium-width) {
+      max-width: 50%;
       width: 50%;
     }
 
     @media (min-width: $large-width) {
+      max-width: 33.3333%;
       width: 33.3333%;
     }
   }
